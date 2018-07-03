@@ -12,13 +12,10 @@ import * as actions from '../../store/actions/index';
 import axios from '../../axios-orders';
 
 class BurgerBuilder extends Component {
-    // constructor(props) {
-    //     super(props);
-    //     this.state = {...}
-    // }
+
     state = {
         purchasing: false
-    }
+    };
 
     componentDidMount () {
         console.log(this.props); 
